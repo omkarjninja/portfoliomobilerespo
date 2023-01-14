@@ -1,0 +1,191 @@
+@keyframes textcolor-change{
+    0%{color: black;}
+    25%{color: #1A1A40;}
+    50%{color: blueviolet;}
+    75%{color:#182747;}
+    100%{color: #040303;}
+ } 
+body{
+    background-color: #F3E9DD;
+}
+.nav-item{
+    padding: 0px 18px;
+    transition: all 1s ease-in-out;
+}
+.nav-item:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+.navbar-brand{
+    font-size: 3rem;
+    padding-left: 75px;
+    font-family: 'Stalinist One', cursive;
+    text-shadow: 2px 2px #BB8082;
+}
+h1{
+    font-size: 3.5rem;
+    font-family: 'Patua One', cursive;
+    padding: 20px 20px 20px 20px;
+    line-height: 1.4;
+    cursor: help;
+    margin: auto;
+    text-align: center;
+}
+p{
+    font-size: 1.3rem;
+    font-family: 'Gruppo', cursive;
+    padding: 20px 20px 0px 20px;
+    line-height: 0.5;
+    margin: auto;
+    text-align: center;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1rem;
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para{
+    padding-bottom: 20px;
+}
+hr{
+    margin: 5% 25%;
+    width: 50%;
+}
+.image{
+    padding-bottom: 20px;
+}
+.image img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    max-width: 100%;
+    border: 0.5px solid black;
+    margin-bottom: 20px;
+    transition: all 2s ease-in-out;
+}
+.image img:hover{
+    transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.text{
+    padding-bottom: 20px;
+}
+#texty{
+    font-size: 2rem;
+    font-family: 'Gruppo', cursive;
+    padding: 20px 20px 20px 20px;
+    line-height: 1.2;
+    margin: auto;
+    text-align: center;
+    
+}
+.imgg img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    max-width: 100%;
+}
+.image a{
+    padding-bottom: 250px;
+}
+.abot{
+    padding-bottom: 25px;
+}
+.imag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 0px 40px 0px;
+
+}
+.imag i{
+    padding-top: 15px;
+    text-decoration: none;
+    color: #171010;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    transition: all 1s ease-in-out;
+    font-size: 1.3rem;
+}
+.imag i:hover{
+    transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.imag i b{
+    font-family: 'Gruppo', cursive;
+}
+span{
+    animation-name: textcolor-change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@media(max-width: 560px){
+
+    h1{
+        font-size: 3rem;
+        font-family: 'Patua One', cursive;
+        padding: 20px 20px 10px 20px;
+        line-height: 1.2;
+        cursor: help;
+        margin: auto;
+        text-align: center;
+    }
+    .para{
+        padding-bottom: 20px;
+    }
+    .imag i{
+        padding-top: 15px;
+        text-decoration: none;
+        color: #171010;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .image img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        border-radius: 20px;
+        max-width: 80%;
+        border: 0.5px solid black;
+        margin-bottom: 20px;
+        transition: all 2s ease-in-out;
+    }
+    .nav-item:hover{
+        transform: scale(1.05);
+        transition: all 1s ease-in-out;
+    }
+    .navbar-brand{
+        font-size: 3rem;
+        padding-left: 15px;
+        font-family: 'Stalinist One', cursive;
+        text-shadow: 2px 2px #BB8082;
+    }
+    .imag i b{
+        font-family: 'Gruppo', cursive;
+        display: none;
+    }
+    .imag i{
+        padding-top: 15px;
+        text-decoration: none;
+        color: #171010;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        transition: all 1s ease-in-out;
+        font-size: 2rem;
+        opacity: 0.75;
+    }
+}
